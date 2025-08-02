@@ -1,0 +1,12 @@
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", sans-serif;
+  cursor: default;
+  box-shadow: 0px 0 5px 0px gray;
+}
+
+header h1 {
+  color: #1E293B;
+}

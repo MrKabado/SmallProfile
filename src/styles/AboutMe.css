@@ -1,0 +1,25 @@
+.aboutme-holder {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutme-holder h1 svg {
+  width: 50px;
+}
+
+.aboutme-holder h1 {
+  display: flex;
+  align-items: center;
+  color: #1E293B;
+}
+
+.aboutme-holder p {
+  padding: 20px;
+  box-shadow: 0 0 5px 0 gray;
+  border-radius: 10px;
+  background-color: #1E293B;
+  color: white;
+  font-size: large;
+}

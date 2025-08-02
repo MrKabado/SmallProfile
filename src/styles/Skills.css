@@ -1,0 +1,101 @@
+.skills {
+  margin: 40px;
+}
+
+.skills h1 {
+  display: flex;
+  align-items: center;
+}
+
+.skills h1 svg {
+  width: 50px;
+}
+
+.skills-holder {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.skills-holder div {
+  border: 5px solid transparent;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1E293B;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  cursor: default;
+}
+
+.skills-holder div:hover {
+  transform: scale(1.03);
+}
+
+.skills-holder div svg {
+  width: 40px;
+}
+
+.skills-holder div h1 {
+  font-size: larger;
+}
+
+.skills-holder div p {
+  font-size: 18px;
+}
+
+/* D946EF
+30CAE2
+FB923C
+40C370
+A855F7
+EF4444 */
+
+
+.skill1 svg, .skill1 h1{
+  color: #D946EF;
+}
+
+.skill2 svg, .skill2 h1{
+  color: #30CAE2;
+}
+
+.skill3 svg, .skill3 h1{
+  color: #FB923C;
+}
+
+.skill4 svg, .skill4 h1{
+  color: #40C370;
+}
+
+.skill5 svg, .skill5 h1{
+  color: #A855F7;
+}
+
+.skill6 svg, .skill6 h1{
+  color: #EF4444;
+}
+
+.skill1:hover {
+  border-color: #D946EF;
+}
+
+.skill2:hover {
+  border-color: #30CAE2;
+}
+
+.skill3:hover {
+  border-color: #FB923C;
+}
+
+.skill4:hover {
+  border-color: #40C370;
+}
+
+.skill5:hover {
+  border-color: #A855F7;
+}
+
+.skill6:hover {
+  border-color: #EF4444;
+}
