@@ -12,7 +12,7 @@ import linkedin from '../assets/linkedin.png'
 
 function Profile() {
   return (
-    <div>
+    <div className='Profile-holder'>
       <ProfilePicture />
       <AboutMe />
       <Skills />
